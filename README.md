@@ -1,7 +1,10 @@
 # Python-seed-brute-forcer
-I made a small program that brute forces seeds so that when "randomly" choosing numbers between 1 and 10, will always give a sequence of numbers from 1 to 10 in ascending order! May need slight modifications for other numbers, but this is a good starting point. 
+I made a small program that brute forces seeds for Python's random module! It works by starting off with the seed 0, then adding 1 to the seed until eventually the desired sequence is given.
+
+NOTE: The python generates a predetermined sequence for the random module's randint function. Making this project work with other functions within the random module will require manual modifications to the code. 
 
 ## Seeds:
+### Lower = 1, Upper = 10
 1: 2
 
 1-2: 2
@@ -21,3 +24,5 @@ I made a small program that brute forces seeds so that when "randomly" choosing 
 1-9: 1361757416
 
 1-10: 5234703478
+
+Pi first 10 digits: 33327794158
